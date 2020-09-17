@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        >
+        <TextView
+            android:id="@+id/serviceName"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Service Name"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/serviceCode"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Service Code"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/serviceName"
+            />
+        <TextView
+            android:id="@+id/servicePrice"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Service Price"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@id/serviceCode"
+            />
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:text="Update"
+
+            />
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:text="Delete"
+
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

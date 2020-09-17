@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/service"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Service"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Contact"
+        android:iconTint="@color/white"/>
+
+        <item
+            android:id="@+id/tblservice"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Table Service"
+            android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        android:iconTint="@color/white"/>
+    </group>
+</menu>

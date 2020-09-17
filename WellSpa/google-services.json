@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187985918284",
+    "firebase_url": "https://realtime-db-f5a4e.firebaseio.com",
+    "project_id": "realtime-db-f5a4e",
+    "storage_bucket": "realtime-db-f5a4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187985918284:android:ce5d5e6ef1a15d2517b7e9",
+        "android_client_info": {
+          "package_name": "com.example.latihanflut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187985918284-cujajo6dp3esmncrbkde6li73ji9nqls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3qTPBx8ysIGYe7XXCP9MGmXZHtSzMk_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187985918284-cujajo6dp3esmncrbkde6li73ji9nqls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

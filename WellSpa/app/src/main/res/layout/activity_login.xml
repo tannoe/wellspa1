@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.Login"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/header_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameLog"
+        android:layout_below="@+id/header_login"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameLog"
+        android:id="@+id/passwordLog"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:hint="Password"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/loginBtn1"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/button"
+        android:layout_below="@id/passwordLog"
+        />
+
+    <TextView
+        android:id="@+id/adminLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordLog"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="83dp"
+        android:text="Admin"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/UserLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordLog"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="83dp"
+        android:text="User"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

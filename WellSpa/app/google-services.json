@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1064895841665",
+    "firebase_url": "https://wellspa-b3fb7.firebaseio.com",
+    "project_id": "wellspa-b3fb7",
+    "storage_bucket": "wellspa-b3fb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064895841665:android:d456e974961d1454061480",
+        "android_client_info": {
+          "package_name": "com.example.wellspa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064895841665-fnelpc7bhsppmkkdl6bokvi3v6gtjmd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wellspa",
+            "certificate_hash": "1ad359dfeee8c49f36850b5549833006e545e263"
+          }
+        },
+        {
+          "client_id": "1064895841665-votkva0qfffi2fphf61gcjfd494bvhpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiS1APy_FjcIprxCZ4TwIp3sgFt1TvDE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064895841665-votkva0qfffi2fphf61gcjfd494bvhpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

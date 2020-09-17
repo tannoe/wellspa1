@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+
+
+        android:background="@color/colorPrimaryDark"
+        >
+        <TextView
+            android:id="@+id/contactEmail"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="Email"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/contactFN"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="First Name"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/contactEmail"
+            />
+        <TextView
+            android:id="@+id/contactLN"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="Last Name"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@id/contactFN"
+            />
+        <TextView
+            android:id="@+id/contactMSG"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="Messages"
+            android:textSize="15dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@id/contactLN"
+            />
+
+
+        <Button
+            android:id="@+id/deleteBtnContact"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:text="Delete"
+
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
